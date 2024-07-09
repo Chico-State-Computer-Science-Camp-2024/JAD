@@ -2,12 +2,6 @@ body{
     background-image: url(images/bigpicture.webp);
     background-repeat: no-repeat;
     background-size: cover;
-
-
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial;
   }
   
   .tablink {
@@ -16,7 +10,6 @@ body, html {
     float: left;
     border: none;
     outline: none;
-    cursor: pointer;
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
@@ -36,4 +29,7 @@ body, html {
   #Portfolio {background-color: rgba(0, 0, 0, 0.342);}
   #Services {background-color: rgba(0, 0, 0, 0.342);}
   #About-Us {background-color: rgba(0, 0, 0, 0.342);}
-  #Support {background-color: rgba(0, 0, 0, 0.342);}}
+  #Support {background-color: rgba(0, 0, 0, 0.342);}
+
+  h1 {color: White}
+ 
