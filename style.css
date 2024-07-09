@@ -3,4 +3,40 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Portfolio {background-color: rgba(8, 112, 36, 0.777);}
+  #Services {background-color: rgb(132, 169, 211);}
+  #About Us {background-color: rgba(27, 136, 91, 0.716);}
+  #Support {background-color: rgb(227, 123, 71);}}

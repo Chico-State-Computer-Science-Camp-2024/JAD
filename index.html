@@ -10,7 +10,29 @@
     
 </head>
 <body>
-    <h1 style="text-align: center"> Welome to Ba-LENSE-iaga</h1>
-
+    <button class="tablink" onclick="openPage('Portfolio', this, 'red')">Portfolio</button>
+    <button class="tablink" onclick="openPage('Services', this, 'green')" id="defaultOpen">Services</button>
+    <button class="tablink" onclick="openPage('About Us', this, 'blue')">About Us</button>
+    <button class="tablink" onclick="openPage('Support', this, 'orange')">Support</button>
+    
+    <div id="Portfolio" class="tabcontent">
+      <h3>Portfolio</h3>
+      <p>Home is where the heart is..</p>
+    </div>
+    
+    <div id="Services" class="tabcontent">
+      <h3>Services</h3>
+      <p>Some news this fine day!</p> 
+    </div>
+    
+    <div id="About Us" class="tabcontent">
+      <h3>About Us</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+    
+    <div id="Support" class="tabcontent">
+      <h3>Support</h3>
+      <p>Who we are and what we do.</p>
+    </div>
 </body>
 </html>
