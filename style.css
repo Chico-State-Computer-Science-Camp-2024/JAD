@@ -4,16 +4,14 @@ body{
     background-size: cover;
 
 
-/* Set height of body and the document to 100% */
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial;
   }
   
-  /* Style tab links */
   .tablink {
-    background-color: #555;
+    background-color: #555555a2;
     color: white;
     float: left;
     border: none;
@@ -28,15 +26,14 @@ body, html {
     background-color: #777;
   }
   
-  /* Style the tab content (and add height:100% for full page content) */
   .tabcontent {
     color: white;
     display: none;
-    padding: 100px 20px;
-    height: 100%;
+    padding: 60px 10px;
+    height: 90%;
   }
   
-  #Portfolio {background-color: rgba(8, 112, 36, 0.777);}
-  #Services {background-color: rgb(132, 169, 211);}
-  #About Us {background-color: rgba(27, 136, 91, 0.716);}
-  #Support {background-color: rgb(227, 123, 71);}}
+  #Portfolio {background-color: rgba(0, 0, 0, 0.342);}
+  #Services {background-color: rgba(0, 0, 0, 0.342);}
+  #About-Us {background-color: rgba(0, 0, 0, 0.342);}
+  #Support {background-color: rgba(0, 0, 0, 0.342);}}
