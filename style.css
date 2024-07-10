@@ -1,11 +1,9 @@
 body{
   background-image: url(images/Coffee.jpg);
     background-repeat: no-repeat;
-<<<<<<< HEAD
     background-size:cover;
     background-position: top;
     background-attachment: scroll;
-=======
     background-size: cover;
   }
   
@@ -35,12 +33,11 @@ body{
   #Services {background-color: rgba(0, 0, 0, 0.342);}
   #About-Us {background-color: rgba(0, 0, 0, 0.342);}
   #Support {background-color: rgba(0, 0, 0, 0.342);}
->>>>>>> d32b587f858dea751432dcb4ced0aa20ee15dff3
 
   h1 {color: rgb(255, 255, 255)}
   
   .header{
-    display: flex; justify-content: center;
-  align-self: center;}
+    text-align: center;
+  }
   
  
