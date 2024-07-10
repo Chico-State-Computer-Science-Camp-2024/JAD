@@ -1,6 +1,46 @@
 body{
-    background-image: url(images/bigpicture.webp);
+  background-image: url(images/Coffee.jpg);
     background-repeat: no-repeat;
+<<<<<<< HEAD
+    background-size:cover;
+    background-position: top;
+    background-attachment: scroll;
+=======
     background-size: cover;
+  }
+  
+  .tablink {
+    background-color: #555555a2;
+    color: rgb(0, 0, 0);
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #908b8b99;
+  }
+  
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 60px 10px;
+    height: 90%;
+  }
+  
+  #Portfolio {background-color: rgba(0, 0, 0, 0.342);}
+  #Services {background-color: rgba(0, 0, 0, 0.342);}
+  #About-Us {background-color: rgba(0, 0, 0, 0.342);}
+  #Support {background-color: rgba(0, 0, 0, 0.342);}
+>>>>>>> d32b587f858dea751432dcb4ced0aa20ee15dff3
 
-}
+  h1 {color: rgb(255, 255, 255)}
+  
+  .header{
+    display: flex; justify-content: center;
+  align-self: center;}
+  
+ 
