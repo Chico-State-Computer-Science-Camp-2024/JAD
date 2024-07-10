@@ -1,6 +1,8 @@
 body{
     background-image: url(images/bigpicture.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: top;
+    background-attachment: scroll;
 
 }
