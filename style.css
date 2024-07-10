@@ -1,12 +1,12 @@
 body{
-    background-image: url(images/bigpicture.webp);
+  background-image: url(images/Coffee.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .tablink {
     background-color: #555555a2;
-    color: white;
+    color: rgb(0, 0, 0);
     float: left;
     border: none;
     outline: none;
@@ -16,7 +16,7 @@ body{
   }
   
   .tablink:hover {
-    background-color: #777;
+    background-color: #908b8b99;
   }
   
   .tabcontent {
@@ -31,5 +31,10 @@ body{
   #About-Us {background-color: rgba(0, 0, 0, 0.342);}
   #Support {background-color: rgba(0, 0, 0, 0.342);}
 
-  h1 {color: White}
+  h1 {color: rgb(255, 255, 255)}
+  
+  .header{
+    display: flex; justify-content: center;
+  align-self: center;}
+  
  
