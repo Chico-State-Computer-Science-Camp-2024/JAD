@@ -32,4 +32,11 @@
     elmnt.style.backgroundColor = color;
   }
   
-  document.getElementById("defaultOpen").click();
+  // document.getElementById("defaultOpen").click();
+
+  //LINES 38-40 IS AN ATTEMPT TO CHANGE THE BACKGROUND COLOR OF FOUNDERS HTML
+  // var foundersbg = document.getElementById("foundersbg");
+  // console.log(foundersbg)
+  // foundersbg.style.backgroundImage= "";
+
+

@@ -41,11 +41,34 @@ body{
   .header{
     text-align: center;
     }
-  
- /* *{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
- } */
+  /* .starting. here is the CSS for Founders code. Makes the grid */
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,.25,fr);
+  grid-template-rows: repeat(3,minmax(250px,auto));
+  padding: 1px;
+}
+.angelp{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.angelt{
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.javip{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.javit{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.donp{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.dont{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
