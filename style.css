@@ -55,6 +55,7 @@ body{
 .angelt{
   grid-column: 3/4;
   grid-row: 1/2;
+  color:white;
 }
 .javip{
   grid-column: 2/3;
@@ -63,6 +64,7 @@ body{
 .javit{
   grid-column: 3/4;
   grid-row: 2/3;
+  color:white;
 }
 .donp{
   grid-column: 2/3;
@@ -71,4 +73,9 @@ body{
 .dont{
   grid-column: 3/4;
   grid-row: 3/4;
+  color:white;
+}
+.ourfounders{
+  text-align: center;
+  color: white;
 }
