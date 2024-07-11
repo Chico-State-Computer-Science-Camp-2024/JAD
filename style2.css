@@ -1,0 +1,65 @@
+.fadein img{ 
+    position:relative;
+    top:0;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 60s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 1;}
+    16.6% {opacity: 1;}
+    20% {opacity: 0;}
+    96.6% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fade {
+    0% {opacity: 1;}
+    16.6% {opacity: 1;}
+    20% {opacity: 0;}
+    96.6% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#f1 {
+    background-image: url("wildlife cams.jpg");
+    animation-delay: -12s;
+}
+#f2 {
+    animation-delay: -24s;
+    background-image: url("IMG_1098.png");
+}
+#f3 {
+    animation-delay: -36s;
+    background-image: url("IMG_1099.png");
+}
+#f4 {
+    animation-delay: -48s;
+    background-image: url("IMG_1097.png");
+}
+#f5 {
+    animation-delay: -60s; 
+    background-image: url("Sirui lens.jpg")
+}
+
+body{
+    background-color: beige;
+}
+
+h1 { 
+    text-align: center;
+}
+p {
+    text-align:center;
+    text-transform:uppercase;
+    position:relative;
+    top: 0;
+    right: 0;
+}
+
+#myCanvas { 
+    float: right;
+}
