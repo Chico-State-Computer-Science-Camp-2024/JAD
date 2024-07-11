@@ -31,10 +31,10 @@ body{
     height: 90%;
   }
   
-  #Portfolio {background-color: rgba(0, 0, 0, 0.342);}
-  #Services {background-color: rgba(0, 0, 0, 0.342);}
-  #About-Us {background-color: rgba(0, 0, 0, 0.342);}
-  #Support {background-color: rgba(0, 0, 0, 0.342);}
+  #Portfolio {background-color: rgba(255, 254, 254, 0.76);}
+  #Services {background-color: rgba(255, 254, 254, 0.76);}
+  #About-Us {background-color: rgba(255, 254, 254, 0.76);}
+  #Support {background-color: rgba(255, 254, 254, 0.76);}
 
   h1 {color: rgb(255, 255, 255)}
   
