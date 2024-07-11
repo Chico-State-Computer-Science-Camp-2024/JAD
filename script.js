@@ -1,22 +1,22 @@
 
-let angle = 0;
-let lense;
+// let angle = 0;
+// let lense;
 
-function preload(){
-  lense = loadModel('Lense.obj');
-}
-function setup(){
-  createCanvas(100,100,WEBGL);
+// function preload(){
+//   lense = loadModel('Lense.obj');
+// }
+// function setup(){
+//   createCanvas(100,100,WEBGL);
   
-}
-function draw(){
-  background(120, 120,120);
-  rotateX(angle);
-  rotateY(angle);
-  rotateZ(angle);
-  model(lense);
-  angle += 0.03;
-}
+// }
+// function draw(){
+//   background(120, 120,120);
+//   rotateX(angle);
+//   rotateY(angle);
+//   rotateZ(angle);
+//   model(lense);
+//   angle += 0.03;
+// }
 
   function openPage(pageName,elmnt,color) {
     var i, tabcontent, tablinks;
