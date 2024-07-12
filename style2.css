@@ -1,6 +1,6 @@
 .fadein img{ 
     position:absolute;
-    top:0;
+    top:250px;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 60s;
