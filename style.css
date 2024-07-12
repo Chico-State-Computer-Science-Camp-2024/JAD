@@ -78,4 +78,9 @@ body{
 .ourfounders{
   text-align: center;
   color: white;
+  backdrop-filter: blur(3px);
+}
+
+#canvasID { 
+  visibility: hidden;
 }
