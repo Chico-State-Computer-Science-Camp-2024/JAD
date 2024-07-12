@@ -1,5 +1,5 @@
 body{
-  background-image: url(images/Coffee.jpg);
+  background-image: url(Coffee.jpg);
     background-repeat: no-repeat;
 
     background-size:cover;
@@ -15,7 +15,7 @@ body{
   
   .tablink {
     background-color: #555555a2;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     float: left;
     border: none;
     outline: none;
@@ -40,7 +40,7 @@ body{
   #About-Us {background-color: rgba(255, 254, 254, 0.76);}
   #Support {background-color: rgba(255, 254, 254, 0.76);}
 
-  h1 {color: rgb(0, 0, 0)}
+  h1 {color: rgb(255, 255, 255)}
   
   .header{
     text-align: center;
@@ -59,7 +59,7 @@ body{
 .angelt{
   grid-column: 3/4;
   grid-row: 1/2;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 .javip{
   grid-column: 2/3;
@@ -68,7 +68,7 @@ body{
 .javit{
   grid-column: 3/4;
   grid-row: 2/3;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 .donp{
   grid-column: 2/3;
@@ -77,11 +77,11 @@ body{
 .dont{
   grid-column: 3/4;
   grid-row: 3/4;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 .ourfounders{
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   backdrop-filter: blur(3px);
 }
 
