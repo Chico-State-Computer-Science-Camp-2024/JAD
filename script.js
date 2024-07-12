@@ -1,22 +1,32 @@
 
-// let angle = 0;
-// let lense;
+let angle = 0;
+let lense;
+let cnv;
 
-// function preload(){
-//   lense = loadModel('Lense.obj');
-// }
-// function setup(){
-//   createCanvas(100,100,WEBGL);
+function preload(){
+  lense = loadModel('Lense.obj');
+}
+function setup(){
+  cnv = createCanvas(400,400,WEBGL);
+  cnv.id("canvasID");
+  var x = (2000 - width) / 2;
+  var y = (800- height) / 2;
+  cnv.position(x, y);
+  background(400, 0, 300);
+
+}
+function draw(){
+  perspective(0.1, 1.5, 10, 35000)
+  background(120, 120,120);
+  orbitControl();
+  // rotateX(angle);
+  // rotateY(angle);
+  // rotateZ(angle);
+  spotLight(255, 255, 255, 300, 500, 0, 1, -1, 0)
+  model(lense, 80);
   
-// }
-// function draw(){
-//   background(120, 120,120);
-//   rotateX(angle);
-//   rotateY(angle);
-//   rotateZ(angle);
-//   model(lense);
-//   angle += 0.03;
-// }
+  angle += 0.03;
+}
 
   function openPage(pageName,elmnt,color) {
     var i, tabcontent, tablinks;
@@ -31,6 +41,10 @@
     document.getElementById(pageName).style.display = "block";
     elmnt.style.backgroundColor = color;
   }
+
+  // $(document).ready(function (){
+  //   console.log(window.location.href);
+  // });
   
   // document.getElementById("defaultOpen").click();
 
