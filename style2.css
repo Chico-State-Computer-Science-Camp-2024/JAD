@@ -1,5 +1,5 @@
 .fadein img{ 
-    position:relative;
+    position:absolute;
     top:0;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
@@ -51,6 +51,9 @@ body{
 
 h1 { 
     text-align: center;
+    top: 0;
+    right: 0;
+    left:0;
 }
 p {
     text-align:center;
@@ -58,8 +61,6 @@ p {
     position:relative;
     top: 0;
     right: 0;
+    left: 0;
 }
 
-#myCanvas { 
-    float: right;
-}
