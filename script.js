@@ -1,13 +1,14 @@
 
 let angle = 0;
 let lense;
+let cnv;
 
 function preload(){
   lense = loadModel('Lense.obj');
 }
 function setup(){
-  createCanvas(100,100,WEBGL);
-  
+  cnv = createCanvas(100,100,WEBGL);
+  cnv.id("canvasID");
 }
 function draw(){
   background(120, 120,120);
@@ -31,6 +32,10 @@ function draw(){
     document.getElementById(pageName).style.display = "block";
     elmnt.style.backgroundColor = color;
   }
+
+  $(document).ready(function (){
+    console.log(window.location.href);
+  });
   
   // document.getElementById("defaultOpen").click();
 
