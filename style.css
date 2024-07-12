@@ -1,4 +1,13 @@
+body{
+  background-image: url(images/Coffee.jpg);
+    background-repeat: no-repeat;
 
+    background-size:cover;
+    background-position: top;
+    background-attachment: scroll;
+
+    background-size: cover;
+  }
   
   body{
     background-color: burlywood;
